@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: mks-cluster
-  description: Kafka managed solution
+  name: main-database
+  description: RDS PostgreSQL managed solution
 spec:
   type: database
   owner: devops-team

@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-web2
-  description: The place to be, for great artists
+  name: blc_api
+  description: 
 spec:
-  type: website
+  type: api
   lifecycle: production
-  owner: artist-relations-team
-  system: artist-engagement-portal
+  owner: growth-team
+  system: core
   dependsOn:
-    - resource:default/artists-db
+    - resource:default/mks-cluster
   providesApis:
     - artist2-api
