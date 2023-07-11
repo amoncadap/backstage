@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-web
+  name: artist-web2
   description: The place to be, for great artists
 spec:
   type: website
@@ -11,4 +11,4 @@ spec:
   dependsOn:
     - resource:default/artists-db
   providesApis:
-    - artist-api
+    - artist2-api
